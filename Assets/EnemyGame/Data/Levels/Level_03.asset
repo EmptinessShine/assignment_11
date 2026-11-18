@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b60bdeb2d53082948a7451b4a5aedb15, type: 3}
+  m_Name: Level_03
+  m_EditorClassIdentifier: Assembly-CSharp::LevelData
+  levelName: "\u0423\u0440\u043E\u0432\u0435\u043D\u044C 3. \u0411\u043E\u0441\u0441"
+  layout: {fileID: 5604568440843759681, guid: 49604c5cd366859418664c2eb680971b, type: 3}
+  playerStart: {x: -15, y: 0}
+  goal: 1
+  timeLimit: 150
+  enemies:
+  - type: 2
+    statsOverride: {fileID: 11400000, guid: b71d2f99c8c93c7459336ed155e216da, type: 2}
+    position: {x: 8, y: 0}
+    lookDirection: {x: -1, y: 0}
+    route:
+    - {x: 4, y: 0}
+    - {x: 11, y: 0}
+  - type: 1
+    statsOverride: {fileID: 0}
+    position: {x: 15, y: 8}
+    lookDirection: {x: -1, y: -0.5}
+    route: []
+  - type: 1
+    statsOverride: {fileID: 0}
+    position: {x: 15, y: -8}
+    lookDirection: {x: -1, y: 0.5}
+    route: []
+  - type: 0
+    statsOverride: {fileID: 0}
+    position: {x: -8, y: 8}
+    lookDirection: {x: 1, y: 0}
+    route:
+    - {x: -8, y: 8}
+    - {x: 8, y: 8}
+  alertRadius: 14
+  helpersCount: 3
+  pointsPerSecondLeft: 15

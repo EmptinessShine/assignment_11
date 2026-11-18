@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0d069cbabeab364494047a31b230d02, type: 3}
+  m_Name: ShooterStats
+  m_EditorClassIdentifier: Assembly-CSharp::ShooterStats
+  maxHealth: 1
+  invincibleTime: 0.15
+  moveSpeed: 1.6
+  damage: 1
+  size: 1
+  scoreValue: 150
+  viewDistance: 7
+  viewAngle: 70
+  lookAroundSpeed: 150
+  backstabAngle: 110
+  scanSpeed: 50
+  scanTime: 2
+  aimTime: 0.7
+  aimLockTime: 0.2
+  cooldownTime: 1.2
+  bulletSpeed: 7
+  bulletLifetime: 3
+  investigateTime: 6
